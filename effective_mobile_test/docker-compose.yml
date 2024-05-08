@@ -1,0 +1,53 @@
+version: '3'
+
+services:
+  e_m_postgres_db:
+    image: postgres:16-alpine
+    restart: always
+    environment:
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=postgres
+    container_name: e_m_postgres_db
+    ports:
+      - "4001:4001"
+    expose:
+      - "4001"
+    command: -p 4001
+    networks:
+      - network1
+
+  e_m_backend:
+    build: 
+      context: .
+      dockerfile: ./dev.Dockerfile
+    ports:
+      - "4000:4000"
+    restart: unless-stopped
+    container_name: e_m_backend
+    volumes:
+      - ./:/app
+    expose:
+      - 4000
+    networks:
+      - network1
+    depends_on:
+      - e_m_postgres_db
+
+  json-server:
+    build: 
+      context: ../json-server
+      dockerfile: ./Dockerfile
+    ports:
+      - "3000:3000"
+    restart: unless-stopped
+    container_name: json-server
+    volumes:
+      - ../json-server/:/app/json-server
+    expose:
+      - 3000
+    networks:
+      - network1
+  
+networks:
+  network1:

@@ -1,0 +1,316 @@
+{
+  "cars": [
+    {
+      "id": 1,
+      "regNum": "ABC123",
+      "mark": "Kia",
+      "model": "Optima",
+      "year": 2001,
+      "owner": { "name": "Anderea", "surname": "Standidge", "patronymic": "Widocks" }
+    },
+    {
+      "id": 2,
+      "regNum": "XYZ789",
+      "mark": "Mercedes-Benz",
+      "model": "300D",
+      "year": 1992,
+      "owner": { "name": "Torey", "surname": "Raphael", "patronymic": "Peacop" }
+    },
+    {
+      "id": 3,
+      "regNum": "QWE456",
+      "mark": "Mercedes-Benz",
+      "model": "500E",
+      "year": null,
+      "owner": { "name": "Aridatha", "surname": "Derks", "patronymic": "Bickerdicke" }
+    },
+    {
+      "id": 4,
+      "regNum": "JKL321",
+      "mark": "Toyota",
+      "model": "Corolla",
+      "year": 2008,
+      "owner": { "name": "Minda", "surname": "Windebank", "patronymic": "Rivett" }
+    },
+    {
+      "id": 5,
+      "regNum": "MNO987",
+      "mark": "Dodge",
+      "model": "Neon",
+      "year": 1997,
+      "owner": { "name": "Alejandro", "surname": "Symon", "patronymic": "Barnfield" }
+    },
+    {
+      "id": 6,
+      "regNum": "RST654",
+      "mark": "Chevrolet",
+      "model": "Venture",
+      "year": 1997,
+      "owner": { "name": "Dalila", "surname": "Rentz", "patronymic": "Kubiak" }
+    },
+    {
+      "id": 7,
+      "regNum": "GHI852",
+      "mark": "Honda",
+      "model": "Element",
+      "year": 2006,
+      "owner": { "name": "Meyer", "surname": "Brogan", "patronymic": "Maben" }
+    },
+    {
+      "id": 8,
+      "regNum": "UVW963",
+      "mark": "Toyota",
+      "model": "Highlander",
+      "year": 2005,
+      "owner": { "name": "Teddie", "surname": "Girodier", "patronymic": "Stoffels" }
+    },
+    {
+      "id": 9,
+      "regNum": "PQR741",
+      "mark": "Pontiac",
+      "model": "Grand Prix",
+      "year": null,
+      "owner": { "name": "Herculie", "surname": "MacCarlich", "patronymic": "Leadbeatter" }
+    },
+    {
+      "id": 10,
+      "regNum": "DEF369",
+      "mark": "Jaguar",
+      "model": "X-Type",
+      "year": 2005,
+      "owner": { "name": "Prescott", "surname": "Karpushkin", "patronymic": "Swanton" }
+    },
+    {
+      "id": 11,
+      "regNum": "LMN258",
+      "mark": "Honda",
+      "model": "Accord",
+      "year": 1994,
+      "owner": { "name": "Frayda", "surname": "Drawmer", "patronymic": "Fisk" }
+    },
+    {
+      "id": 12,
+      "regNum": "HJK147",
+      "mark": "Toyota",
+      "model": "Matrix",
+      "year": null,
+      "owner": { "name": "Ravi", "surname": "Barette", "patronymic": "Slot" }
+    },
+    {
+      "id": 13,
+      "regNum": "VWX852",
+      "mark": "Toyota",
+      "model": "Echo",
+      "year": null,
+      "owner": { "name": "Michel", "surname": "Whitbread", "patronymic": "Bilt" }
+    },
+    {
+      "id": 14,
+      "regNum": "ZYX963",
+      "mark": "Buick",
+      "model": "Rendezvous",
+      "year": 2006,
+      "owner": { "name": "Isaak", "surname": "Cridlan", "patronymic": "Ruddle" }
+    },
+    {
+      "id": 15,
+      "regNum": "POI741",
+      "mark": "Mercedes-Benz",
+      "model": "SLR McLaren",
+      "year": 2007,
+      "owner": { "name": "Ab", "surname": "Loakes", "patronymic": "Wigfall" }
+    },
+    {
+      "id": 16,
+      "regNum": "QWE852",
+      "mark": "Chevrolet",
+      "model": "Express 1500",
+      "year": 1998,
+      "owner": { "name": "Erastus", "surname": "Neat", "patronymic": "Bibey" }
+    },
+    {
+      "id": 17,
+      "regNum": "ASD963",
+      "mark": "Aston Martin",
+      "model": "DB9",
+      "year": 2010,
+      "owner": { "name": "Sammy", "surname": "Sowter", "patronymic": "Ivanishev" }
+    },
+    {
+      "id": 18,
+      "regNum": "ZXC741",
+      "mark": "Maserati",
+      "model": "GranTurismo",
+      "year": 2009,
+      "owner": { "name": "Nedi", "surname": "Glynne", "patronymic": "Scase" }
+    },
+    {
+      "id": 19,
+      "regNum": "QWE369",
+      "mark": "Mitsubishi",
+      "model": "GTO",
+      "year": null,
+      "owner": { "name": "Garfield", "surname": "Archambault", "patronymic": "Dubock" }
+    },
+    {
+      "id": 20,
+      "regNum": "POI852",
+      "mark": "Chevrolet",
+      "model": "SSR",
+      "year": null,
+      "owner": { "name": "Wald", "surname": "Avrahm", "patronymic": "Lassells" }
+    },
+    {
+      "id": 21,
+      "regNum": "JKL963",
+      "mark": "BMW",
+      "model": "X5 M",
+      "year": 2011,
+      "owner": { "name": "Sylvester", "surname": "Fasset", "patronymic": "Commusso" }
+    },
+    {
+      "id": 22,
+      "regNum": "ABC741",
+      "mark": "Infiniti",
+      "model": "EX",
+      "year": 2008,
+      "owner": { "name": "Bastian", "surname": "Lewsley", "patronymic": "O' Liddy" }
+    },
+    {
+      "id": 23,
+      "regNum": "XYZ852",
+      "mark": "Mazda",
+      "model": "Tribute",
+      "year": 2008,
+      "owner": { "name": "Mal", "surname": "Worpole", "patronymic": "Cotterell" }
+    },
+    {
+      "id": 24,
+      "regNum": "POI369",
+      "mark": "Pontiac",
+      "model": "Bonneville",
+      "year": 1987,
+      "owner": { "name": "Lenora", "surname": "Bennoe", "patronymic": "Trouel" }
+    },
+    {
+      "id": 25,
+      "regNum": "JKL852",
+      "mark": "Chevrolet",
+      "model": "Tracker",
+      "year": 2004,
+      "owner": { "name": "Averell", "surname": "Parmby", "patronymic": "Chomiszewski" }
+    },
+    {
+      "id": 26,
+      "regNum": "ABC963",
+      "mark": "Infiniti",
+      "model": "G",
+      "year": null,
+      "owner": { "name": "Umberto", "surname": "Goldingay", "patronymic": "Crowder" }
+    },
+    {
+      "id": 27,
+      "regNum": "XYZ741",
+      "mark": "Lincoln",
+      "model": "Navigator L",
+      "year": 2011,
+      "owner": { "name": "Jesus", "surname": "Sciacovelli", "patronymic": "Copyn" }
+    },
+    {
+      "id": 28,
+      "regNum": "POI258",
+      "mark": "Suzuki",
+      "model": "Equator",
+      "year": null,
+      "owner": { "name": "Garner", "surname": "Cheyney", "patronymic": "Bree" }
+    },
+    {
+      "id": 29,
+      "regNum": "JKL369",
+      "mark": "Toyota",
+      "model": "Tercel",
+      "year": 1998,
+      "owner": { "name": "Joelie", "surname": "Stuffins", "patronymic": "Markl" }
+    },
+    {
+      "id": 30,
+      "regNum": "ABC852",
+      "mark": "Studebaker",
+      "model": "Avanti",
+      "year": 1964,
+      "owner": { "name": "Abigail", "surname": "Halcro", "patronymic": "Alvy" }
+    },
+    {
+      "id": 31,
+      "regNum": "XYZ963",
+      "mark": "Alfa Romeo",
+      "model": "Spider",
+      "year": null,
+      "owner": { "name": "Francene", "surname": "Davidovic", "patronymic": "Dallan" }
+    },
+    {
+      "id": 32,
+      "regNum": "POI147",
+      "mark": "Buick",
+      "model": "Century",
+      "year": 1992,
+      "owner": { "name": "Briny", "surname": "Eassom", "patronymic": "O'Growgane" }
+    },
+    {
+      "id": 33,
+      "regNum": "JKL258",
+      "mark": "Mercury",
+      "model": "Tracer",
+      "year": 1993,
+      "owner": { "name": "Magdalena", "surname": "Stoeck", "patronymic": "Bromell" }
+    },
+    {
+      "id": 34,
+      "regNum": "ABC369",
+      "mark": "Mercedes-Benz",
+      "model": "M-Class",
+      "year": 1999,
+      "owner": { "name": "Gordy", "surname": "Ellesworthe", "patronymic": "Wolland" }
+    },
+    {
+      "id": 35,
+      "regNum": "POI963",
+      "mark": "GMC",
+      "model": "Savana 1500",
+      "year": 1997,
+      "owner": { "name": "Goran", "surname": "Buckie", "patronymic": "Tedder" }
+    },
+    {
+      "id": 36,
+      "regNum": "JKL741",
+      "mark": "Ford",
+      "model": "Focus ST",
+      "year": 2013,
+      "owner": { "name": "Yetta", "surname": "Cleft", "patronymic": "Sweeny" }
+    },
+    {
+      "id": 37,
+      "regNum": "ABC258",
+      "mark": "Volkswagen",
+      "model": "Rabbit",
+      "year": 2009,
+      "owner": { "name": "Parke", "surname": "Adacot", "patronymic": "Cordey" }
+    },
+    {
+      "id": 38,
+      "regNum": "XYZ369",
+      "mark": "Ford",
+      "model": "Tempo",
+      "year": 1990,
+      "owner": { "name": "Hugh", "surname": "Lowdeane", "patronymic": "Kestle" }
+    },
+    {
+      "id": 39,
+      "regNum": "XYZ258",
+      "mark": "Plymouth",
+      "model": "Grand Voyager",
+      "year": 1992,
+      "owner": { "name": "Yolane", "surname": "Grunder", "patronymic": "Lamont" }
+    }
+  ]
+}
