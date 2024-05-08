@@ -196,7 +196,7 @@ func (con *carsController) Create(c *gin.Context) {
 	amountOfCarsToCreate := len(body.RegNums)
 	for _, regNum := range body.RegNums {
 		queryString := "regNum=" + regNum
-		go external.FetchData(carsExternalApi, "cars", queryString, carsCh, errorCh)
+		go external.FetchData(carsExternalApi, "info", queryString, carsCh, errorCh)
 	}
 
 	var cars []model.Car
